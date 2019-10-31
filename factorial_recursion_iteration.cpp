@@ -1,9 +1,17 @@
+//Program to find factorial of a number
 #include<iostream.h>
 #include<conio.h>
  /* Recursive Version */
  int recur(int n) 
   {
-      return n>=1 ? n * recur(n-1) : 1;
+      if (n>1)
+      {
+       return n * recur(n-1)
+      }
+      else
+      {
+       return 1
+      }
   }
    
  /* Iterative Version */
