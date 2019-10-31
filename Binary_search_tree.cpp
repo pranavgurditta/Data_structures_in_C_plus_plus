@@ -20,6 +20,7 @@ struct treeNode
     treeNode *left;
     treeNode *right;
 };
+//Function to find minimum element in BST
 treeNode* FindMin(treeNode *node)
 {
     if(node==NULL)
@@ -32,6 +33,7 @@ treeNode* FindMin(treeNode *node)
     else
         return node;
 }
+//Function to find maximum element in BST
 treeNode* FindMax(treeNode *node)
 {
     if(node==NULL)
@@ -44,6 +46,7 @@ treeNode* FindMax(treeNode *node)
     else
         return node;
 }
+//Function to insert into BST
 treeNode *Insert(treeNode *node,int data)
 {
     if(node==NULL)
