@@ -1,3 +1,4 @@
+//Program for Bubble Sort, Insertion Sort and Selection Sort
 #include<iostream.h>
 #include<conio.h>
 template<class T>
@@ -12,6 +13,7 @@ T* selectionsort(T lis[],int n);
 T*  insertionsort(T lis[],int n);
 
 };
+//Selection Sort
 template<class T>
 T* sort<T>:: selectionsort(T lis[],int n)
 {
@@ -35,7 +37,7 @@ return lis;
 }
 
 
-
+//Insertion Sort
 template<class T>
 T* sort<T>:: insertionsort(T list[],int n){
 for(int i=0;i<n;i++)
@@ -52,7 +54,7 @@ list[j+1]=temp;
 return(list);
 }
 
-
+//Bubble Sort
 template<class T>
 T* sort<T>:: bubblesort(T lis[],int n)
 {
