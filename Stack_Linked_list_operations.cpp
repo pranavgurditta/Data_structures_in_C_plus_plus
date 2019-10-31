@@ -1,3 +1,4 @@
+//Program to implement stack using linked list
 #include<iostream.h>
 #include<conio.h>
 template<class T>
@@ -8,6 +9,7 @@ node* next;
 T data;
 } ;
 template<class T>
+//defining class stack
 class stack
 {
 public:
