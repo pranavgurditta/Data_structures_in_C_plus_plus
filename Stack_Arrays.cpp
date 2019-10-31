@@ -1,3 +1,4 @@
+//Program to implement stack as an array
 #include<iostream.h>
 #include<conio.h>
 template<class T>
@@ -20,10 +21,10 @@ template<class T>
 void stack<T>::push(int n)
 {
 T k;
-cout<<"Enter the element to be pushed"<<endl;
+cout<<"Enter the element to be pushed: "<<endl;
 cin>>k;
 if(top==n-1)
-cout<<"Stack Overflow"<<endl;
+cout<<"Stack Overflow!!"<<endl;
 else
 {
 top++;
